@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title></title>
+  </head>
+  <body>
+    <div class="menu">
+      <img class="Logo" src="./assets/Logo.png" />
+      <a>Mac</a>
+      <a>iPad</a>
+      <a>iPhone</a>
+      <a>Watch</a>
+      <a>Support</a>
+    </div>
+    <container>
+      <div class="info">
+        <h1>iPhone 14</h1>
+        <h2>Tão poderoso. Tão ao seu alcance.</h2>
+        <p>Em dois tamanhos perfeitos. Agora com um toque de amarelo.</p>
+        <h3>A partir de R$ 633,25/mês ou R$ 7.599*</h3>
+        <button type="button" class="buy">Comprar</button>
+        <div class="colors">
+          <p>Escolha sua cor:</p>
+          <img
+            type="button"
+            onclick="changeImage('./assets/Blue.jpeg')"
+            class="color"
+            src="./assets/circle blue.jpeg"
+          />
+          <img
+            type="button"
+            onclick="changeImage('./assets/Purple.jpeg')"
+            class="color"
+            src="./assets/circle purple.jpeg"
+          />
+          <img
+            type="button"
+            onclick="changeImage('./assets/Yellow.jpeg')"
+            class="color"
+            src="./assets/circle yellow.jpeg"
+          />
+          <img
+            type="button"
+            onclick="changeImage('./assets/Black.jpeg')"
+            class="color"
+            src="./assets/cirlce black.jpeg"
+          />
+          <img
+            type="button"
+            onclick="changeImage('./assets/White.jpeg')"
+            class="color"
+            src="./assets/circle white.jpeg"
+          />
+          <img
+            type="button"
+            onclick="changeImage('./assets/Red.jpeg')"
+            class="color"
+            src="./assets/circle red.jpeg"
+          />
+        </div>
+      </div>
+      <div>
+        <img class="choose-phone" src="./assets/Blue.jpeg" id="Blue" />
+      </div>
+    </container>
+  </body>
+</html>

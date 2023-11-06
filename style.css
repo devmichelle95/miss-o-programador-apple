@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #fffcfc;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 170px;
+  margin-top: 20px;
+  border-bottom: 1px solid #9e9999;
+}
+a {
+  font-size: 15px;
+  cursor: pointer;
+}
+a:active {
+  text-decoration-line: underline;
+}
+
+.Logo {
+  margin-bottom: 5px;
+  width: 15px;
+}
+
+container {
+  display: grid;
+  grid-template-columns: 400px 20px;
+  margin-top: 20px;
+  position: absolute;
+  width: 300px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 170px;
+  margin-left: 20px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.color {
+  cursor: pointer;
+  width: 40px;
+}
+button {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #5597fb;
+  color: #fffcfc;
+  font-weight: bold;
+  border: none;
+  padding: 5px;
+  width: 100px;
+}
+button:hover {
+  background-color: #a0c8f9;
+}
+button:active {
+  background-color: #85bbfe;
+}
+
+.choose-phone {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 900px;
+  transition: opacity 2s ease-in-out;
+}
